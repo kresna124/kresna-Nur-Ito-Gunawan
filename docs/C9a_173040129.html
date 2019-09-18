@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+	<h3>Masukan tulisan</h3>
+	<input type="text" name="tulisan" id="tulisanku">
+	<input type="button" name="submit" value="cek" onclick="cekTulisan()">
+
+
+<script>
+	function cekTulisan() {
+		var tulisanku = document.getElementById('tulisanku').value;
+		if(tulisanku == ""){
+		alert ("anda tidak masukan nama")
+
+		}else{
+			alert("teks yang anda masukan adalah: " + tulisanku);
+		}
+	}
+
+</script>
+</body>
+</html>
